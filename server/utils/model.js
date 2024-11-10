@@ -7,7 +7,7 @@ async function submitQuery(query,sessionId) {
             'apikey': process.env.OD_API_KEY
         },
         body: JSON.stringify({
-            "endpointId": "predefined-openai-gpt4o",
+            "endpointId": "byom-6bf40ceef40841d",
             "query": query,
             "pluginIds": ["plugin-1730259134"],
             "responseMode": "sync"
